@@ -1,0 +1,19 @@
+{
+  "pipeline_type": "WORKSPACE",
+  "name": "bronze_to_silver",
+  "libraries": [
+    {
+      "glob": {
+        "include": "/Workspace/path/to/kkbox-databricks-pipeline/pipeline/transformations/**"
+      }
+    }
+  ],
+  "schema": "default",
+  "continuous": false,
+  "development": false,
+  "photon": true,
+  "channel": "CURRENT",
+  "catalog": "workspace",
+  "serverless": true,
+  "root_path": "/Workspace/path/to/kkbox-databricks-pipeline/pipeline"
+}

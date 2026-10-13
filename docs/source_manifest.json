@@ -1,0 +1,88 @@
+[
+  {
+    "archive": "bronze_to_silver.zip",
+    "source": "bronze_to_silver/transformations/members.py",
+    "destination": "pipeline/transformations/members.py",
+    "changes": [],
+    "sha256": "7087ef0a88494c3922351d7bcc70806c05f4c3c320047b7021e3d667c3e069fe"
+  },
+  {
+    "archive": "bronze_to_silver.zip",
+    "source": "bronze_to_silver/transformations/transactions.py",
+    "destination": "pipeline/transformations/transactions.py",
+    "changes": [],
+    "sha256": "5f45ba82dfbcb2e03b1022d4a64a422cbd4bf5af89f3b7f333b7f4981370c17a"
+  },
+  {
+    "archive": "bronze_to_silver.zip",
+    "source": "bronze_to_silver/transformations/user_logs.py",
+    "destination": "pipeline/transformations/user_logs.py",
+    "changes": [],
+    "sha256": "2143d04544ae890e3ef4e0d215828125c8ab7e2ae0f803c4332c03f8d3a19fbc"
+  },
+  {
+    "archive": "bronze_to_silver.zip",
+    "source": "bronze_to_silver/transformations/gold.py",
+    "destination": "pipeline/transformations/gold.py",
+    "changes": [],
+    "sha256": "e751f339d5754722247b8872994c2246b5d9ef5cd5745d395fb0f1cb81c01edd"
+  },
+  {
+    "archive": "bronze_to_silver.zip",
+    "source": "bronze_to_silver/transformations/churn_labels.py",
+    "destination": "pipeline/transformations/churn_labels.py",
+    "changes": [],
+    "sha256": "d40ea9c3cf20a50462ca5731755bee27c506a64c32f83c87226e91487148883e"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/kkbox_ingest/kkbox_ingest.py",
+    "destination": "notebooks/01_ingestion/kkbox_ingest.py",
+    "changes": [
+      "Replaced hard-coded Kaggle token with Databricks secret lookup."
+    ],
+    "sha256": "aa66c69d72c2662a9e4a4f50a37f7b97889b962bb379d8c431703492cd449f21"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/cleanup/nils_cleanup_1.py",
+    "destination": "notebooks/02_quality/nils_cleanup_1.py",
+    "changes": [],
+    "sha256": "ffc8ba79e7745db84a545bb0ec06bd059a03da62d95bbe74041e93b214ee8fbc"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/cleanup/ana_cleanup_1.py",
+    "destination": "notebooks/02_quality/ana_cleanup_1.py",
+    "changes": [],
+    "sha256": "38858a44a7f10d8c6998417400b1cfb68a2661b0d9a3ff8138c30eedae9e2bf4"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/kkbox_analysis/engagement_analysis.py",
+    "destination": "notebooks/03_analysis/engagement_analysis.py",
+    "changes": [],
+    "sha256": "cd446cc5fdf5b276d7bd6dfe9885a8280f79bfe67c8772bd55898e2b2781f6c9"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/kkbox_analysis/New Notebook 2026-10-03 11:03:01.py",
+    "destination": "notebooks/03_analysis/pricing_analysis.py",
+    "changes": [],
+    "sha256": "65995227b9e85feb0319e9bef1c32ddb8e74bdf7c14834f7759398d4f6e8f3bd"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/exploration/nils_exploration.py",
+    "destination": "notebooks/04_exploration/member_subscription_exploration.py",
+    "changes": [],
+    "sha256": "d4d2a6c7d40ee383f093122d8921f68452d5d3be7efda8cf24e4b48a703ed992"
+  },
+  {
+    "archive": "Shared.zip",
+    "source": "Shared/exploration/DL.py",
+    "destination": "notebooks/05_exports/download_tables.py",
+    "changes": [],
+    "sha256": "5f9b76d91c5d88290c783d122ac5a13e317c3c0a59c3e402a388e98f78918807"
+  }
+]
